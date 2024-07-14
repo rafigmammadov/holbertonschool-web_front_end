@@ -430,15 +430,7 @@ ul.row {
     z-index: 1;
 }
 
-.card-work .card-inner {
-    text-align: center;
-    margin: 0;
-    opacity: 0;
-    height: 100%;
-    position: relative;
-}
-
-.card-inner:hover {
+.card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -450,13 +442,13 @@ ul.row {
     position: relative;
 }
 
-.card-title .card-work a {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-title .card-work a::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
