@@ -430,6 +430,14 @@ ul.row {
     z-index: 1;
 }
 
+.card-work .card-inner {
+    text-align: center;
+    margin: 0;
+    opacity: 0;
+    height: 100%;
+    position: relative;
+}
+
 .card-inner:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
