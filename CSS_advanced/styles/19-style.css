@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--nav-item-link-hover);
 }
 
-.ul .row {
+ul .row {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -347,6 +347,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-color);
 }
 
-.footer .ul {
+.footer ul {
     text-align: right;
 }
